@@ -31,10 +31,11 @@ export default {
     },
   },
   setup (props, context) {
-    let mp3Url = '/the-little-prince-audio/' + props.s + '.mp3'
+    let baseUrl = '/vuejsdev-com-github'
+    let mp3Url = baseUrl + '/the-little-prince-audio/' + props.s + '.mp3'
 
     if (props.src !== '') {
-      mp3Url = '/the-little-prince-audio/' + props.src
+      mp3Url = baseUrl + '/the-little-prince-audio/' + props.src
     }
     // console.info('mp3: url: ' + mp3Url)
     // const player = new Audio(mp3Url)
