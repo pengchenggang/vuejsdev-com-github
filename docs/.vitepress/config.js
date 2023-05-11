@@ -4,7 +4,7 @@ import sidebar from './sidebar'
 import minimist from 'minimist'
 
 const argv = minimist(process.argv.slice(2))
-const build = argv.buildGitee || false
+const build = argv.buildGithub || false
 const baseBuild = build ? '/vuejsdev-com-github/' : '/'
 export default defineConfig({
 	base: baseBuild,

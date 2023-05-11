@@ -10,7 +10,7 @@
     "dev8080": "vitepress dev docs --port 8080 --host",
     "start": "vitepress serve docs --port 8080",
     "docs:build": "vitepress build docs",
-    "docs:buildGitee": "vitepress build docs --buildGitee",
+    "docs:buildGithub": "vitepress build docs --buildGithub",
     "build": "vitepress build docs",
     "buildAndPublic": "node script-ci/giteeUpdate.js",
     "giteeUpdateOnly": "node script-ci/giteeUpdateOnly.js",
