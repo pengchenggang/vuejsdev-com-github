@@ -41,11 +41,11 @@ export default defineConfig({
 		// 顶部导航栏设置：左侧
 		logo: '/avatar.png',
 		siteTitle: 'VuejsDev',
-		algolia: {
-			appId: 'HWP0O1R62E',
-			apiKey: '85c467819e5b8a1d8ff7fafd0a8a986b',
-			indexName: 'vuejsdev',
-		},
+		// algolia: {
+		// 	appId: 'HWP0O1R62E',
+		// 	apiKey: '85c467819e5b8a1d8ff7fafd0a8a986b',
+		// 	indexName: 'vuejsdev',
+		// },
 		// 顶部导航栏设置：右侧
 		nav,
 		// 侧边栏配置
