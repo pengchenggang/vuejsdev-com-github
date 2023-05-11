@@ -1,0 +1,19 @@
+/* .vitepress/theme/custom.css */
+/* :root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
+} */
+
+.custom-block p {
+  text-indent: 0em !important;
+}
+
+.text-indent-class p {
+  text-indent: 2em;
+}
+/* ._the-little-prince_chapter-01-the-little-prince p {
+  text-indent: 2em;
+} */
+rt {
+  color: #b0b0b0;
+}
