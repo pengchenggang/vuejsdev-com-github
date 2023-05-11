@@ -35,7 +35,7 @@
 <BottomBox>
 <SpeedSwitch />
 <!-- /the-little-prince-audio/c01.m4a -->
-<PlayAudioBox src="https://pengchenggang.gitee.io/the-little-prince/c01.m4a" :s="[
+<PlayAudioBox src="/vuejsdev-com-github/the-little-prince/c01.m4a" :s="[
   ['0:12.767', '0:14.577', 'c01_01'],
   ['0:15.296', '0:18.522', 'c01_02'],
   ['0:19.752', '0:22.561', 'c01_03'],
