@@ -5,7 +5,7 @@ import minimist from 'minimist'
 
 const argv = minimist(process.argv.slice(2))
 const build = argv.buildGitee || false
-const baseBuild = build ? '/vuejsdev-com/' : '/'
+const baseBuild = build ? '/vuejsdev-com-github/' : '/'
 export default defineConfig({
 	base: baseBuild,
 	// 全局设置
