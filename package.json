@@ -1,0 +1,38 @@
+{
+  "name": "vuejsdev-com",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "vuejsdev.com 网站前台",
+  "main": "index.js",
+  "scripts": {
+    "发布前端网站": "ssh root@117.50.187.55 '/root/vuejsdev.sh'",
+    "dev": "vitepress dev docs --port 8086",
+    "dev8080": "vitepress dev docs --port 8080 --host",
+    "start": "vitepress serve docs --port 8080",
+    "docs:build": "vitepress build docs",
+    "docs:buildGitee": "vitepress build docs --buildGitee",
+    "build": "vitepress build docs",
+    "buildAndPublic": "node script-ci/giteeUpdate.js",
+    "giteeUpdateOnly": "node script-ci/giteeUpdateOnly.js",
+    "autoNumber": "node script-ci/autoNumber.js",
+    "serve": "vitepress serve docs --port 8080",
+    "test": "node script-ci/test.js"
+  },
+  "devDependencies": {
+    "async": "^3.2.4",
+    "howler": "^2.2.3",
+    "minimist": "^1.2.7",
+    "vitepress": "^1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  },
+  "dependencies": {
+    "javascript-state-machine": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/pengchenggang/vuejsdev-com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
