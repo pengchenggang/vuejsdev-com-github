@@ -20,9 +20,10 @@
   },
   "devDependencies": {
     "async": "^3.2.4",
-    "howler": "^2.2.3",
+    "flexsearch": "^0.7.31",
     "minimist": "^1.2.7",
     "vitepress": "^1.0.0-alpha.75",
+    "vitepress-plugin-search": "^1.0.4-alpha.20",
     "vue": "^3.2.37"
   },
   "dependencies": {
