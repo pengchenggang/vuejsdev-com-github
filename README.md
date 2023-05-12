@@ -1,2 +1,3 @@
 # vuejsdev-com-github
-2
+
+pages: https://pengchenggang.github.io/vuejsdev-com-github/
