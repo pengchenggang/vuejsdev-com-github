@@ -13,7 +13,8 @@ export default defineConfig({
 	lastUpdated: true,
 	markdown: {
 		// toc: { level: [2, 3] },
-		theme: 'material-palenight',
+		theme: 'material-theme-palenight',
+		// theme: 'material-palenight',
 		lineNumbers: true
 	},
 
@@ -41,6 +42,9 @@ export default defineConfig({
 		// 顶部导航栏设置：左侧
 		logo: '/avatar.png',
 		siteTitle: 'VuejsDev',
+		// search: {
+    //   provider: 'local'
+    // },
 		// algolia: {
 		// 	appId: 'HWP0O1R62E',
 		// 	apiKey: '85c467819e5b8a1d8ff7fafd0a8a986b',

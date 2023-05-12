@@ -22,7 +22,7 @@
     "async": "^3.2.4",
     "howler": "^2.2.3",
     "minimist": "^1.2.7",
-    "vitepress": "^1.0.0-alpha.4",
+    "vitepress": "^1.0.0-alpha.75",
     "vue": "^3.2.37"
   },
   "dependencies": {

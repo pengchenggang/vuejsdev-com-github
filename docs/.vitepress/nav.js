@@ -15,12 +15,6 @@ const nav = [
   
   { text: '更新日志', link: '/log/log' },
   {
-    text: 'STRIVE', 
-    items: [
-      { text: 'The Little Prince', link: '/the-little-prince/chapter-01-the-little-prince.md' },
-    ],
-  },
-  {
     text: '关注我',
     items: [
       { text: 'Github', link: 'https://github.com/pengchenggang' },

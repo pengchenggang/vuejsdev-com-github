@@ -31,16 +31,6 @@ const sidebar = {
       ]
     },
   ],
-  '/the-little-prince/': [
-    {
-      text: 'The Little Prince', 
-      items: [
-        { text: 'Chapter 1', link: '/the-little-prince/chapter-01-the-little-prince.md' },
-        { text: 'Chapter 2', link: '/the-little-prince/chapter-02-the-little-prince.md' },
-        // { text: 'Chapter 3', link: '/the-little-prince/chapter-03-the-little-prince.md' },
-      ],
-    }
-  ],
   '/log/': [
     {
       text: '日志',
