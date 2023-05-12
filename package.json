@@ -6,16 +6,14 @@
   "main": "index.js",
   "scripts": {
     "发布前端网站": "ssh root@117.50.187.55 '/root/vuejsdev.sh'",
-    "dev": "vitepress dev docs --port 8086",
-    "dev8080": "vitepress dev docs --port 8080 --host",
-    "start": "vitepress serve docs --port 8080",
-    "docs:buildGithub": "vitepress build docs --buildGithub",
-    "build": "vitepress build docs",
+    "dev": "vitepress dev docsMarkdown --port 8086",
+    "dev8080": "vitepress dev docsMarkdown --port 8080 --host",
+    "start": "vitepress serve docsMarkdown --port 8080",
+    "build": "vitepress build docsMarkdown --buildGithub",
     "buildAndPublic": "node script-ci/giteeUpdate.js",
     "giteeUpdateOnly": "node script-ci/giteeUpdateOnly.js",
     "autoNumber": "node script-ci/autoNumber.js",
-    "serve": "vitepress serve docs --port 8080",
-    "test": "node script-ci/test.js"
+    "serve": "vitepress serve docsMarkdown --port 8080"
   },
   "devDependencies": {
     "async": "^3.2.4",
