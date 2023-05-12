@@ -11,7 +11,7 @@ export default defineConfig({
 	// 全局设置
 	lang: 'zh-CH',
 	lastUpdated: true,
-	outDir: '../public',
+	outDir: '../docs',
 	markdown: {
 		// toc: { level: [2, 3] },
 		theme: 'material-theme-palenight',
